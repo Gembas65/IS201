@@ -20,12 +20,10 @@ li {
      /* we used this to ever wrte the custom style from below  .bold to <ol>*/
     font-weight: normal;
 }
-a {color: rgba(253, 102, 8, 0.96);
-    /* all of this was in <style and cut from resume.html and paste here after creating the folder and file with .css*/
-    /* to add an .css file to a .html page we neeed to add at the <head> of the file */
-    /*  <link rel="stylesheet" href="../styles/style.css"> this is the path to link it to the resume.html */
-    /* do the same for index.html and for aboutme.html  remember some need a pad up to look at the file*/ 
-/* we take all the underline with text-declaration: none */
+a {color: rgba(8, 253, 41, 0.96);
+    font-weight: bolder;
+    font-size: large;
+  
 text-decoration: none;
 }
 a:hover {text-decoration: underline; 
