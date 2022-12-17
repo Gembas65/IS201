@@ -1,0 +1,45 @@
+.fonttitle {
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+}
+.center {
+    text-align: center;
+}
+.fontquote { font-size: medium; font-weight: normal;}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #555555;
+   background-color:white;
+}
+li {
+    font-size: 14px;
+    font-style: italic;
+     /* we used this to ever wrte the custom style from below  .bold to <ol>*/
+    font-weight: normal;
+}
+a {color: rgb(8, 233, 253);
+    /* all of this was in <style and cut from resume.html and paste here after creating the folder and file with .css*/
+    /* to add an .css file to a .html page we neeed to add at the <head> of the file */
+    /*  <link rel="stylesheet" href="../styles/style.css"> this is the path to link it to the resume.html */
+    /* do the same for index.html and for aboutme.html  remember some need a pad up to look at the file*/ 
+/* we take all the underline with text-declaration: none */
+text-decoration: none;
+}
+a:hover {text-decoration: underline; 
+}
+/* also for bold and others */
+a:visited {color: blue;
+}
+h4 {font-size: 17px;}
+/* custom Style Selector .drescriptive name then go to the .html file and add inside the attribute but (outside the ") and class= "desciptive name" */
+/* if we add another custom style (class) has to be inside the " */
+.resumelistHeading {
+    font-weight: bolder;
+    font-style: normal;
+}
+/* .underline {text-decoration: overline;}  not used*/
+.bold {font-weight: bold;}
+.justify {text-align: justify;}
