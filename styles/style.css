@@ -1,0 +1,65 @@
+     /* we created a .css file inside the Styles folder to put all the Styles from the .html file  Also deleted the <style in the .html file*/
+     body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: 555555;
+       background-color: beige;
+    }
+    li {
+        font-size: 14px;
+        font-style: italic;
+         /* we used this to ever wrte the custom style from below  .bold to <ol>*/
+        font-weight: normal;
+    }
+    a {color: maroon;
+        /* all of this was in <style and cut from resume.html and paste here after creating the folder and file with .css*/
+        /* to add an .css file to a .html page we neeed to add at the <head> of the file */
+        /*  <link rel="stylesheet" href="../styles/style.css"> this is the path to link it to the resume.html */
+        /* do the same for index.html and for aboutme.html  remember some need a pad up to look at the file*/ 
+/* we take all the underline with text-declaration: none */
+    text-decoration: none;
+    }
+    a:hover {text-decoration: underline; 
+    }
+    /* also for bold and others */
+    a:visited {color: blue;
+    }
+    h4 {font-size: 17px;}
+    /* custom Style Selector .drescriptive name then go to the .html file and add inside the attribute but (outside the ") and class= "desciptive name" */
+    /* if we add another custom style (class) has to be inside the " */
+    .resumelistHeading {
+        font-weight: bolder;
+        font-style: normal;
+    }
+    /* .underline {text-decoration: overline;}  not used*/
+    .bold {font-weight: bold;}
+    .justify {text-align: justify;}
+    /* I want to add a backgroud to my homepage we need to type url ('  ')in here where we find the file */
+    .homebg {
+        background-image: url('../images/Background_image.jpg');
+        background-position:top center;
+        background-size: 500px 500px;
+        background-repeat: no-repeat;
+        background-color: white;
+    }
+    .box1 {
+        border-width: 1px;
+        /* must write border style because it is set to none as defout */
+        border-style: solid; 
+        border-color: blue; 
+         /*with boder can write in the same line just separating by space  */
+        border: 1px solid red;
+/* the last statament overwrite the last one */
+    }
+    .box2 {
+        padding: 5px;
+        /* the edge between the border and the contain */
+    }
+    .box3 {
+        margin: 50px;
+ /* space between two peices of contain even between the paragraph text and the span text also right click outsede the span and tells you how to inspect elements*/ 
+    }
+   
+ 
+        
+    
