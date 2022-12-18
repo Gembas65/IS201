@@ -10,13 +10,13 @@ body {
     top: 5px;
     right: 5px;
     left: 5px;
-    height: 250px;
+    height: 300px;
     padding-right: 5px;
-    padding-bottom: 70px;
+    padding-bottom: 50px;
     background-color: rgb(4, 0, 0);
 } 
 .main {
-    top: 250px;
+    top: 304px;
     right: 5px;
     left: 10px;
     bottom: 39px;
