@@ -20,7 +20,7 @@ li {
      /* we used this to ever wrte the custom style from below  .bold to <ol>*/
     font-weight: normal;
 }
-a {color:white;
+a {color: white;
     font-weight: bolder;
     font-size: large;
   
@@ -44,9 +44,12 @@ h4 {font-size: 17px;}
 .media {
     font-weight: lighter;
     font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
     color: chocolate;
 }
 .blue {
     color: blue;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
